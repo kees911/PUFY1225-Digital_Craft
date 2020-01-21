@@ -1,0 +1,6 @@
+Libraries are bunches of codes that can have objects, functions, that by adding a link to these libraries, we have access to use.
+
+When typing in a url, the first check goes to a DNS, or Domain Name Server.
+
+Charset = symbols/characters. UTF-8 is as close as we can get to universal thus far.
+It is an attribute of the <meta> tag.
