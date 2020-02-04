@@ -8,13 +8,18 @@ Pulses https://p5js.org/examples/drawing-pulses.html
 function setup() {
   createCanvas(displayWidth, displayHeight);
   strokeWeight(5);
+}
+
+var rColor = "rSlider.value";
+var gColor = "gSlider.value";
+var bColor = "bSlider.value";
+
+function draw(){
   stroke (rOutput.innerHTML, gOutput.innerHTML, bOutput.innerHTML);
 }
-/*I don't know how to get this to respond to the actual slider.
-I think it has something to do with render() or a delay/refresh,
-but I don't know how I would implement that without refreshing the entire canvas
-as the stroke color function is part of the setup function*/
 
+/*I also wrote code that was meant to correspond to a 0-100 opacity (alpha) slider,
+but I could not get it to work, so it has been omitted from the GitHub submission*/
 
 function touchMoved() {
   line(mouseX, mouseY, pmouseX, pmouseY);
@@ -44,7 +49,3 @@ bOutput.innerHTML = bSlider.value;
 bSlider.oninput = function() {
   bOutput.innerHTML = this.value;
 }
-
-var rColor = "rSlider.value"
-var gColor = "gSlider.value"
-var bColor = "bSlider.value"
