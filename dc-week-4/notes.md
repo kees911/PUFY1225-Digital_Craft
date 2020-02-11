@@ -13,9 +13,10 @@ Blueprints
 * function myFunction (x,y,angle,itemWidth,itemHeight){}
 
 **creating organic shapes by placing vertices**
+```javascript
 beginShape();
-vertex(0,0);
-vertex (100, 100);
-vertex (0,100);
-vertex (100,0);
-endShape();
+>vertex(0,0);
+>vertex (100, 100);
+>vertex (0,100);
+>vertex (100,0);
+>endShape();```
