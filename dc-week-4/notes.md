@@ -1,3 +1,29 @@
+when counter hits whatever, mousex=this and mousey= that, make that the lineend
+line(mouseX, mouseY, mouseX, mouseY);
+https://p5js.org/reference/#/p5/mouseX
+no bg
+do a line without X or Y,
+get a start position
+have a counter
+when counter = ??, change end X and Y
+at the same time, beginning x and y for the next line will update
+then the counter will add
+
+drawing at a pace example: https://editor.p5js.org/hyershin/sketches/SkG_S5K3W
+
+---
+
+Look up classes + objects
+
+function mouseClicked (){
+if 
+
+if mouseX is in the bounds of the message
+
+listener ("click", function {
+
+classes + objects
+
 **Markdown Cheatsheet for GitHub:** https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 Parameters= variables you can pass through the f'n
