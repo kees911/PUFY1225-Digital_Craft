@@ -30,3 +30,27 @@ var color = '"' + rColor + ',' + gColor + ',' + bColor + '"';
 print (color)
 //this didn't work in context, but something like this
 ```
+---
+**printing type**
+
+```javascript
+var font = 'comic sans MS';
+
+typo(font, 10, 'hello', 100, 100);
+
+function typo(font, size, message, startX, startY){
+textFont(font);
+textSize(size);
+textAlign(left/right/center);
+fill(r,g,b,a);
+text('message', startX, startY, endX, endY);
+}
+
+function mouseClicked(){
+  if (font == 'comic sans MS'){
+    font == 'impact';
+    } else{
+    font = 'comic sans MS'}
+}
+```
+* the space between lines is called leading, as opposed to space between letters which is kerning
