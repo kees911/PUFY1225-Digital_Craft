@@ -16,3 +16,4 @@
 ## week 4
 
 <!--- ![alt text](web address) for putting images in-->
+* [fake GUI mockup](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-4/fake-GUI/)
