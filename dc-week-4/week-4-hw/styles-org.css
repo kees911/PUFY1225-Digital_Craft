@@ -1,0 +1,60 @@
+html {
+  --randomColor: #000000;
+}
+
+#myCanvas {
+  border: 5px solid black;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity:0.5;
+}
+
+a:visited {
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ th, td {
+   border: none;
+   height: 40px;
+   width: 40px;
+   padding: 0;
+   margin: 0;
+ }
+
+ td a {
+     display:block;
+     width:100%;
+     position: relative;
+ }
+
+.shaded {
+  background-color: var(--randomColor);
+}
+/*I want to figure out how to make this change color every time the page is reloaded,
+but I could not figure out how to get the JS variables to communicate with the CSS variables.*/
+
+.default {
+  background-color: white;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+*[id^="pixelButton"] {
+  height: 60px;
+  width: 60px;
+}
