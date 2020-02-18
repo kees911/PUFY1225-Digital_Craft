@@ -1,0 +1,130 @@
+body {
+    color: white;
+    font-family: 'Sue Ellen Francisco', cursive; 
+}
+
+div{
+    padding: 15px;
+    margin: 15px;
+}
+
+/*I would like to button*/
+
+@keyframes fading {
+    0%   {opacity: 100%;}
+    50%  {opacity: 25%;}
+    100% {opacity: 100%;}
+}
+
+
+button{
+    border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+    font-family: 'Sue Ellen Francisco', cursive;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0px;
+  cursor: pointer;
+    background-color: white;
+    color: #999999;
+
+}
+
+#goal{
+            animation-name: fading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#paragraph
+{
+    font-size: 2em;
+}
+
+/*page section division*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#title{
+    order: -1;
+    flex: 2;
+    
+}
+
+#welcome-message{
+    font-size: 2em;
+    text-align: left;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.clock {
+    font-size: 6em;
+    display:inline;
+}
+
+/*dropdown css*/
+
+[class^="dropbtn"] {
+  background-color: inherit;
+  color: white;
+    padding: inherit;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+    font-family: 'Sue Ellen Francisco', cursive; 
+    align-self: center;
+}
+
+[class^="dropbtn"]:hover, [class^="dropbtn"]:focus {
+  background-color: #00000050;
+    color: white;
+    font-family: 'Sue Ellen Francisco', cursive; 
+    animation-name: fading;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+[class^="dropdown"] {
+  position: relative;
+  display: inline-block;
+    color: white;
+    font-family: 'Sue Ellen Francisco', cursive; 
+    align-self: center;
+}
+
+[class^="dropdown-content"] {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+    color: white;
+    align-self: center;
+    
+}
+
+[class^="dropdown-content"] a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+    color: white;
+}
+
+[class^="dropdown"] a:hover {
+    background-color: #00000050;
+}
+
+.show {
+    display: block;
+    align-self: center;
+}

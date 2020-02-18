@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css" >
+        <script src="scripts.js"></script>
+    </head>
+    <body onload="getNewRandomColor(), startTime()">
+        
+        <div class="flex-container">
+            <div id="title">
+                <p id="welcome-message"><b>Welcome.</b>
+                <br>What would you like to do today?</p>
+            </div>
+            <div class="flex-one"><!--clock-->
+                <div class="clock" id="txt"></div>
+            </div>
+        </div>
+        
+        <div align="center">
+        <button id="goal" onclick="setGoal()">I would like to...</button>
+        <p id="paragraph"></p>
+        </div>
+        
+<div class="flex-container">
+    
+            <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="tns-logo.png" height="50px"><br>school</button>
+  <div id="myDropdown" class="dropdown-content">
+                    <a href="https://my.newschool.edu/">MyNewSchool</a>
+                    <a href="https://canvas.newschool.edu/">Canvas</a>
+                    <a href="https://starfish.newschool.edu/">Starfish</a>
+                </div>
+            </div>
+    
+    <div></div>
+    
+    <div class="dropdown2">
+  <button onclick="myFunction2()" class="dropbtn2"><img src="books.png" height="50px"><br>research</button>
+  <div id="myDropdown2" class="dropdown-content2">
+                    <a href="https://library.newschool.edu/">Library</a>
+                    <a href="http://guides.library.newschool.edu/az.php">Databases</a>
+                    <a href="https://scholar.google.com/">Google Scholar</a>
+                </div>
+            </div>
+    
+    <div></div>
+    
+    <div class="dropdown3">
+  <button onclick="myFunction3()" class="dropbtn3"><img src="music-notes.png" height="50px"><br>entertainment</button>
+  <div id="myDropdown3" class="dropdown-content3">
+                    <a href="https://www.youtube.com/">YouTube</a>
+                    <a href="https://www.spotify.com/">Spotify</a>
+                    <a href="https://www.netflix.com/">Netflix</a>
+                </div>
+            </div>
+
+</div>
+        
+      
+    </body>
+</html>
