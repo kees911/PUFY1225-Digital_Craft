@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+div {
+    background-color: black;
+    font-family: monospace;
+    font-size: 2em;
+    padding: 25px;
+    margin: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
