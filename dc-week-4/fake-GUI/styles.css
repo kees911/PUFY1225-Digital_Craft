@@ -54,7 +54,6 @@ button{
 #title{
     order: -1;
     flex: 2;
-    align-self:center;
 }
 
 #welcome-message{
@@ -69,6 +68,7 @@ button{
 .clock {
     font-size: 6em;
     display:inline;
+    align-self:right;
 }
 
 /*dropdown css*/
