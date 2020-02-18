@@ -68,7 +68,7 @@ button{
 .clock {
     font-size: 6em;
     display:inline;
-    align-self:right;
+    justify-content: flex-end;
 }
 
 /*dropdown css*/
