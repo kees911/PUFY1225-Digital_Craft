@@ -14,7 +14,10 @@
 * [sketch 3](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-3/week-3-hw/03-three.html)
 
 ## week 4
-
 <!--- ![alt text](web address) for putting images in-->
 * [fake GUI mockup](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-4/fake-GUI/)
 * [revised sketch for laser cutting](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-4/week-4-hw/)
+
+## week 5
+* [finished generative line drawing program with .svg export](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-5/homework%20attempt/)
+* [Learning portfolio post: Generative Art](https://portfolio.newschool.edu/sophiakee/2020/02/21/generative-art-with-p5-js/)
