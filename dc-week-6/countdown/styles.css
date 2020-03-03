@@ -27,7 +27,7 @@ mark {
 /*I stole the font from the New School website. I don't think it's legal since only this version of the font could be converted*/
 @font-face {
 font-family: "Neue Display Wide";
-src: url("fonts/neuedisplay-wide-webfont.eot");
+src: url("../fonts/neuedisplay-wide-webfont.eot");
 src:
 url("fonts/neuedisplay-wide-webfont.woff") format("woff"),
 url("fonts/neuedisplay-wide-webfont.otf") format("opentype"),
