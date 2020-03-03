@@ -21,3 +21,6 @@
 ## week 5
 * [finished generative line drawing program with .svg export](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-5/homework%20attempt/)
 * [Learning portfolio post: Generative Art](https://portfolio.newschool.edu/sophiakee/2020/02/21/generative-art-with-p5-js/)
+
+## week 6
+* [countdown to graduation](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-6/)
