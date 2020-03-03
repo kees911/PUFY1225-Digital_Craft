@@ -1,6 +1,6 @@
 var donut;
 function preload(){
-donut = loadImage('assets/sprinkles.jpg');
+donut = loadImage('https://thumbs.dreamstime.com/b/donut-seamless-background-texture-pattern-donut-pink-seamless-background-texture-pattern-103291161.jpg');
 }
 
 function setup(){
@@ -18,8 +18,6 @@ rotateZ(frameCount *0.01);
   
   noStroke();
   texture(donut);
-  torus (200, 50);
-  
-  
+  torus (100, 50);
 
 }
