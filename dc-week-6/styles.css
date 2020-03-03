@@ -57,6 +57,7 @@ p {
   width: 100%;
   order: -1;
   margin-top: 15px;
+  margin-bottom: -15px;
 }
 /*the below items would be used to push the second stripe behind the text,
 but I can't figure out how to apply a red highlight to the text
