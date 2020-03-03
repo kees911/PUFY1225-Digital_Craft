@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+mark {
+    background-color: #E82E21;
+    color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-1 {
+  flex-grow: 1;
+}
+
+.flex-2 {
+  flex-grow: 2;
+}
+
+@font-face {
+font-family: "Neue Display Wide";
+src: url("fonts/neuedisplay-wide-webfont.eot");
+src:
+url("fonts/neuedisplay-wide-webfont.woff") format("woff"),
+url("fonts/neuedisplay-wide-webfont.otf") format("opentype"),
+url("fonts/neuedisplay-wide-webfont.svg#filename") format("svg");
+}
+
+p {
+  font-size: 72px;
+  margin-top: 0px;
+  font-family: "Neue Display Wide";
+}
+
+#demo {
+  text-align: left;
+  color: #E82E21;
+  order: 2;
+  margin-left: 20px;
+}
+
+#subtitle {
+  font-size: 24px;
+  text-align: left;
+  font-family: "Neue Display Wide";
+  color: black;
+}
+
+#stripe {
+  background-color: black;
+  height: 13px;
+  width: 100%;
+  order: -1;
+  margin-top: 15px;
+}
+/*the below items would be used to push the second stripe behind the text,
+but I can't figure out how to apply a red highlight to the text
+as it does not appear in the html.
+I mocked up this effect with flex-box,
+but it doesn't automatically resize based on the length of the first line like I would have liked it to.*/
+
+/*.front {
+  display: block;
+  z-index: 5;
+}
+
+.behind {
+    display: block;
+    z-index: 3;
+    position: relative;
+    margin: -25px;
+}*/
