@@ -4,11 +4,13 @@ body {
   padding-right: 25px;
 }
 
+/* This was unneeded formatting from a previous attempt at making the countdown scale to the stripes
 mark {
     background-color: #E82E21;
     color: white;
-}
+}*/ 
 
+/*this contains the second stripe and the countdown itself so that they scale to each other*/
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -22,6 +24,7 @@ mark {
   flex-grow: 2;
 }
 
+/*I stole the font from the New School website. I don't think it's legal since only this version of the font could be converted*/
 @font-face {
 font-family: "Neue Display Wide";
 src: url("fonts/neuedisplay-wide-webfont.eot");
@@ -59,11 +62,11 @@ p {
   margin-top: 15px;
   margin-bottom: -15px;
 }
+
 /*the below items would be used to push the second stripe behind the text,
 but I can't figure out how to apply a red highlight to the text
 as it does not appear in the html.
-I mocked up this effect with flex-box,
-but it doesn't automatically resize based on the length of the first line like I would have liked it to.*/
+I ended up using flex box instead.*/
 
 /*.front {
   display: block;
