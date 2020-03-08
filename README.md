@@ -25,3 +25,6 @@
 ## week 6
 * [countdown to graduation](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-6/countdown/)
 * [3D experimentation]()
+
+## week 7
+* [d20 dice roller](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-7/dice/)
