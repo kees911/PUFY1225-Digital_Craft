@@ -1,0 +1,28 @@
+body {
+    /*make the main page white*/
+background-color: white;
+    /*make the default color for content black*/
+    color: black;
+    /*make the default font this thing I found on google fonts*/
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 2em;
+}
+
+/*specifically formatting the text at the top*/
+#instructions {
+    font-size: 0.5em;
+}
+
+.container {
+    /*all the way to the edge*/
+  margin: 0;
+    /*easy grid-style formatting I'm used to*/
+  display: flex;
+    /*stack divs vertically instead of horizontally*/
+flex-direction: column;
+    /*center horizontally*/
+  justify-content: center; 
+  /*center vertically*/
+  align-items: center;
+}
+

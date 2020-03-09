@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <!--styling-->
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <!--imported scripts and scripts for the 3D model-->
+<script src="p5.js"></script>
+<script src="model-scripts.js"></script>
+    <title>Roll for Initiative!</title>
+</head>
+<body>
+    <div class="container"><!--contains everything-->
+        <div id="instructions">Click and hold to roll the dice, release to see what you get!</div>
+    <div id="canvas"></div><!--contains the canvas-->
+    <br>
+
+    <div id="initiative"></div><!--contains the text-->
+    <!--scripts for the text below the canvas-->
+    <script src="text-scripts.js"></script>
+        
+   <!-- <button id="clickMe" onClick="window.location.reload();">Roll for Initiative!</button> I would much rather clicking this button cause the animation to replay and only the text to refresh, but since consolidating it into a single function breaks the Javascript I've decided to have it reload the whole page instead-->
+       
+    <!--<button id="clickMe" onClick="reload()">Roll for Initiative!</button>-->
+    
+    </div>
+    
+    
+    
+    
+       
+</body>
+</html>
