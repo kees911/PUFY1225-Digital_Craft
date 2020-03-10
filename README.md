@@ -28,3 +28,4 @@
 
 ## week 7
 * [d20 dice roller](https://kees911.github.io/PUFY1225-Digital_Craft/dc-week-7/dice/)
+* [3D printing models](https://github.com/kees911/PUFY1225-Digital_Craft/tree/master/dc-week-7/3d-print-files)
