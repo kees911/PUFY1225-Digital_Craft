@@ -4,7 +4,7 @@ var dice;
 
 function preload() {
     //preloading in my dodecahedron 3D model
-dice = loadModel('http://kees911.github.io/PUFY1225-Digital_Craft/dc-week-7/dice/assets/dice.stl');
+dice = loadModel('assets/dice.stl');
 }
 
 function setup() {
