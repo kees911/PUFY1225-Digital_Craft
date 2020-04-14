@@ -28,10 +28,11 @@ var rowCount = stats.getRowCount(); //get the number of rows in the csv file, wh
 //The scale is off but the effect is otherwise what I intended, though it doesn't seem to show up anymore for unknown reasons.
 
 function draw() {
-  background(220);
+  background(0);
   fill(0);
   stroke(0);
 //note "-1"
+  rowCount = stats.getRowCount()
   for (var i = 0; i < rowCount; i++) {
     //place x-axis values
     text(stats.getString(i, 0), i * 30 + 60, 450);
@@ -43,7 +44,7 @@ function draw() {
   }
   //draw graph 2
   stroke("blue");
-  line (i * 30 + 60, 420-rating[i], (i+2) * 30 + 60, 420-rating[i+2])
+  line (i * 30 + 60, 420-rating[i], (i+2) * 300 + 60, 420-rating[i+2])
 //draw graph 3
 stroke("yellow")
 line (i * 30 + 60, 420-rating[i], (i+2) * 30 + 60, 420-rating[i+2])
