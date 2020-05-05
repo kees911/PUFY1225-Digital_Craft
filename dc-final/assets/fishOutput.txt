@@ -1,0 +1,720 @@
+{
+  ID: '1',
+  Name: 'Bitterling',
+  Location: 'River',
+  Size: 'Smallest',
+  Value: '900',
+  Time: 'All day',
+  Seasonality: 'November-March (Northern) / May-September (Southern)'
+}
+{
+  ID: '2',
+  Name: 'Pale Chub',
+  Location: 'River',
+  Size: 'Smallest',
+  Value: '160',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '3',
+  Name: 'Crucian Carp',
+  Location: 'River',
+  Size: 'Small',
+  Value: '160',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '4',
+  Name: 'Dace',
+  Location: 'River',
+  Size: 'Medium',
+  Value: '240',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '5',
+  Name: 'Carp',
+  Location: 'Pond',
+  Size: 'Large',
+  Value: '300',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '6',
+  Name: 'Koi',
+  Location: 'Pond',
+  Size: 'Large',
+  Value: '4000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '7',
+  Name: 'Goldfish',
+  Location: 'Pond',
+  Size: 'Smallest',
+  Value: '1300',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '8',
+  Name: 'Pop-eyed Goldfish',
+  Location: 'Pond',
+  Size: 'Smallest',
+  Value: '1300',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '9',
+  Name: 'Ranchu Goldfish',
+  Location: 'Pond',
+  Size: 'Small',
+  Value: '4500',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '10',
+  Name: 'Killifish',
+  Location: 'Pond',
+  Size: 'Smallest',
+  Value: '300',
+  Time: 'All day',
+  Seasonality: 'April-August (Northern) / October-February (Southern)'
+}
+{
+  ID: '11',
+  Name: 'Crawfish',
+  Location: 'Pond',
+  Size: 'Small',
+  Value: '200',
+  Time: 'All day',
+  Seasonality: 'April-September (Northern) / October-March (Southern)'
+}
+{
+  ID: '12',
+  Name: 'Soft-shelled Turtle',
+  Location: 'River',
+  Size: 'Large',
+  Value: '3750',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'August-September (Northern) / February-March (Southern)'
+}
+{
+  ID: '13',
+  Name: 'Snapping Turtle',
+  Location: 'River',
+  Size: 'X Large',
+  Value: '5000',
+  Time: '9 p.m. - 4 a.m.',
+  Seasonality: 'April-October (Northern) / October-April (Southern)'
+}
+{
+  ID: '14',
+  Name: 'Tadpole',
+  Location: 'Pond',
+  Size: 'Smallest',
+  Value: '100',
+  Time: 'All day',
+  Seasonality: 'March-July (Northern) / September-January (Southern)'
+}
+{
+  ID: '15',
+  Name: 'Frog',
+  Location: 'Pond',
+  Size: 'Small',
+  Value: '120',
+  Time: 'All day',
+  Seasonality: 'May-August (Northern) / November-Feburary (Southern)'
+}
+{
+  ID: '16',
+  Name: 'Freshwater Goby',
+  Location: 'River',
+  Size: 'Small',
+  Value: '400',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '17',
+  Name: 'Loach',
+  Location: 'River',
+  Size: 'Small',
+  Value: '400',
+  Time: 'All day',
+  Seasonality: 'March-May (Northern) / September-November (Southern)'
+}
+{
+  ID: '18',
+  Name: 'Catfish',
+  Location: 'Pond',
+  Size: 'Large',
+  Value: '800',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '19',
+  Name: 'Giant Snakehead',
+  Location: 'Pond',
+  Size: 'X Large',
+  Value: '5500',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'June-August (Northern) / December-February (Southern)'
+}
+{
+  ID: '20',
+  Name: 'Bluegill',
+  Location: 'River',
+  Size: 'Small',
+  Value: '180',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '21',
+  Name: 'Yellow Perch',
+  Location: 'River',
+  Size: 'Medium',
+  Value: '300',
+  Time: 'All day',
+  Seasonality: 'October-March (Northern) / April-September (Southern)'
+}
+{
+  ID: '22',
+  Name: 'Black Bass',
+  Location: 'River',
+  Size: 'Large',
+  Value: '400',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '23',
+  Name: 'Tilapia',
+  Location: 'River',
+  Size: 'Medium',
+  Value: '800',
+  Time: 'All day',
+  Seasonality: 'June-October (Northern) / December-April (Southern)'
+}
+{
+  ID: '24',
+  Name: 'Pike',
+  Location: 'River',
+  Size: 'X Large',
+  Value: '1800',
+  Time: 'All day',
+  Seasonality: 'September-December (Northern) / March-June (Southern)'
+}
+{
+  ID: '25',
+  Name: 'Pond Smelt',
+  Location: 'River',
+  Size: 'Small',
+  Value: '500',
+  Time: 'All day',
+  Seasonality: 'December-February (Northern) / June-August (Southern)'
+}
+{
+  ID: '26',
+  Name: 'Sweetfish',
+  Location: 'River',
+  Size: 'Medium',
+  Value: '900',
+  Time: 'All day',
+  Seasonality: 'July-September (Northern) / January-March (Southern)'
+}
+{
+  ID: '27',
+  Name: 'Cherry Salmon',
+  Location: 'River (Clifftop)',
+  Size: 'Medium',
+  Value: '1000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'March-June & September-November (Northern) / March-May & September-December (Southern)'
+}
+{
+  ID: '28',
+  Name: 'Char',
+  Location: 'River (Clifftop)',
+  Size: 'Medium',
+  Value: '3800',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'March-June & September-November (Northern) / March-May & September-December (Southern)'
+}
+{
+  ID: '29',
+  Name: 'Golden Trout',
+  Location: 'River (Clifftop)',
+  Size: 'Medium',
+  Value: '15000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'March-June & September-November (Northern) / March-May & September-December (Southern)'
+}
+{
+  ID: '30',
+  Name: 'Stringfish',
+  Location: 'River (Clifftop)',
+  Size: 'Largest',
+  Value: '15000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'December-March (Northern) / June-September (Southern)'
+}
+{
+  ID: '31',
+  Name: 'Salmon',
+  Location: 'River (mouth)',
+  Size: 'Large',
+  Value: '700',
+  Time: 'All day',
+  Seasonality: 'September (Northern) / March (Southern)'
+}
+{
+  ID: '32',
+  Name: 'King Salmon',
+  Location: 'River (mouth)',
+  Size: 'Largest',
+  Value: '1800',
+  Time: 'All day',
+  Seasonality: 'September (Northern) / March (Southern)'
+}
+{
+  ID: '33',
+  Name: 'Mitten Crab',
+  Location: 'River',
+  Size: 'Small',
+  Value: '2000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'September-November (Northern) / March-May (Southern)'
+}
+{
+  ID: '34',
+  Name: 'Guppy',
+  Location: 'River',
+  Size: 'Smallest',
+  Value: '1300',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'April-November (Northern) / October-May (Southern)'
+}
+{
+  ID: '35',
+  Name: 'Nibble Fish',
+  Location: 'River',
+  Size: 'Small',
+  Value: '1500',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'May-September (Northern) / November-March (Southern)'
+}
+{
+  ID: '36',
+  Name: 'Angelfish',
+  Location: 'River',
+  Size: 'Small',
+  Value: '3000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '37',
+  Name: 'Betta',
+  Location: 'River',
+  Size: 'Small',
+  Value: '2500',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '38',
+  Name: 'Neon Tetra',
+  Location: 'River',
+  Size: 'Smallest',
+  Value: '500',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'April-November (Northern) / October-May (Southern)'
+}
+{
+  ID: '39',
+  Name: 'Rainbowfish',
+  Location: 'River',
+  Size: 'Small',
+  Value: '800',
+  Time: '9 a.m. - 4 p.m.',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '40',
+  Name: 'Piranha',
+  Location: 'River',
+  Size: 'Small',
+  Value: '2500',
+  Time: '9 a.m. - 4 p.m. & 9 p.m. - 4 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '41',
+  Name: 'Arowana',
+  Location: 'River',
+  Size: 'Large',
+  Value: '10000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '42',
+  Name: 'Dorado',
+  Location: 'River',
+  Size: 'X Large',
+  Value: '15000',
+  Time: '4 a.m. - 9 p.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '43',
+  Name: 'Gar',
+  Location: 'Pond',
+  Size: 'Largest',
+  Value: '6000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '44',
+  Name: 'Arapaima',
+  Location: 'River',
+  Size: 'Largest',
+  Value: '10000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '45',
+  Name: 'Saddled Bichir',
+  Location: 'River',
+  Size: 'Large',
+  Value: '4000',
+  Time: '9 p.m. - 4 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '46',
+  Name: 'Sturgeon',
+  Location: 'River mouth',
+  Size: 'Largest',
+  Value: '10000',
+  Time: 'All day',
+  Seasonality: 'September-March (Northern) / March-September (Southern)'
+}
+{
+  ID: '47',
+  Name: 'Sea Butterfly',
+  Location: 'Sea',
+  Size: 'Smallest',
+  Value: '1000',
+  Time: 'All day',
+  Seasonality: 'December-March (Northern) / June-September (Southern)'
+}
+{
+  ID: '48',
+  Name: 'Sea Horse',
+  Location: 'Sea',
+  Size: 'Smallest',
+  Value: '1100',
+  Time: 'All day',
+  Seasonality: 'April-November (Northern) / October-May (Southern)'
+}
+{
+  ID: '49',
+  Name: 'Clown Fish',
+  Location: 'Sea',
+  Size: 'Smallest',
+  Value: '650',
+  Time: 'All day',
+  Seasonality: 'April-September (Northern) / October-March (Southern)'
+}
+{
+  ID: '50',
+  Name: 'Surgeonfish',
+  Location: 'Sea',
+  Size: 'Small',
+  Value: '1000',
+  Time: 'All day',
+  Seasonality: 'April-September (Northern) / October-March (Southern)'
+}
+{
+  ID: '51',
+  Name: 'Butterfly Fish',
+  Location: 'Sea',
+  Size: 'Small',
+  Value: '1000',
+  Time: 'All day',
+  Seasonality: 'April-September (Northern) / October-March (Southern)'
+}
+{
+  ID: '52',
+  Name: 'Napoleonfish',
+  Location: 'Sea',
+  Size: 'Largest',
+  Value: '10000',
+  Time: '4 a.m. - 9 p.m.',
+  Seasonality: 'July-August (Northern) / January-February (Southern)'
+}
+{
+  ID: '53',
+  Name: 'Zebra Turkeyfish',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '500',
+  Time: 'All day',
+  Seasonality: 'April-November (Northern) / October-May (Southern)'
+}
+{
+  ID: '54',
+  Name: 'Blowfish',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '5000',
+  Time: '6 p.m. - 4 a.m.',
+  Seasonality: 'November-February (Northern) / May-August (Southern)'
+}
+{
+  ID: '55',
+  Name: 'Puffer Fish',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '250',
+  Time: 'All day',
+  Seasonality: 'July-September (Northern) / January-March (Southern)'
+}
+{
+  ID: '56',
+  Name: 'Anchovy',
+  Location: 'Sea',
+  Size: 'Small',
+  Value: '200',
+  Time: '4 a.m. - 9 p.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '57',
+  Name: 'Horse Mackerel',
+  Location: 'Sea',
+  Size: 'Small',
+  Value: '150',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '58',
+  Name: 'Barred Knifejaw',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '5000',
+  Time: 'All day',
+  Seasonality: 'March-November (Northern) / September-May (Southern)'
+}
+{
+  ID: '59',
+  Name: 'Sea Bass',
+  Location: 'Sea',
+  Size: 'X Large',
+  Value: '400',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '60',
+  Name: 'Red Snapper',
+  Location: 'Sea',
+  Size: 'Large',
+  Value: '3000',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '61',
+  Name: 'Dab',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '300',
+  Time: 'All day',
+  Seasonality: 'October-April (Northern) / April-October (Southern)'
+}
+{
+  ID: '62',
+  Name: 'Olive Flounder',
+  Location: 'Sea',
+  Size: 'Large',
+  Value: '800',
+  Time: 'All day',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '63',
+  Name: 'Squid',
+  Location: 'Sea',
+  Size: 'Medium',
+  Value: '500',
+  Time: 'All day',
+  Seasonality: 'December-August (Northern) / June-February (Southern)'
+}
+{
+  ID: '64',
+  Name: 'Moray Eel',
+  Location: 'Sea',
+  Size: 'Narrow',
+  Value: '2000',
+  Time: 'All day',
+  Seasonality: 'August-October (Northern) / February-April (Southern)'
+}
+{
+  ID: '65',
+  Name: 'Ribbon Eel',
+  Location: 'Sea',
+  Size: 'Narrow',
+  Value: '600',
+  Time: 'All day',
+  Seasonality: 'June-October (Northern) / December-April (Southern)'
+}
+{
+  ID: '66',
+  Name: 'Tuna',
+  Location: 'Pier',
+  Size: 'Largest',
+  Value: '7000',
+  Time: 'All day',
+  Seasonality: 'November-April (Northern) / May-October (Southern)'
+}
+{
+  ID: '67',
+  Name: 'Blue Marlin',
+  Location: 'Pier',
+  Size: 'Largest',
+  Value: '10000',
+  Time: 'All day',
+  Seasonality: 'July-September & November-April (Northern) / January-March & May-November (Southern)'
+}
+{
+  ID: '68',
+  Name: 'Giant Trevally',
+  Location: 'Pier',
+  Size: 'Large',
+  Value: '4500',
+  Time: 'All day',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '69',
+  Name: 'Mahi-mahi',
+  Location: 'Sea',
+  Size: 'Large',
+  Value: '6000',
+  Time: 'All day',
+  Seasonality: 'May-October (Northern) / November-April (Southern)'
+}
+{
+  ID: '70',
+  Name: 'Ocean Sunfish',
+  Location: 'Sea',
+  Size: 'Largest (Fin)',
+  Value: '4000',
+  Time: '4 a.m. - 9 p.m.',
+  Seasonality: 'July-September (Northern) / January-March (Southern)'
+}
+{
+  ID: '71',
+  Name: 'Ray',
+  Location: 'Sea',
+  Size: 'X Large',
+  Value: '3000',
+  Time: '4 a.m. - 9 p.m.',
+  Seasonality: 'August-November (Northern) / February-May (Southern)'
+}
+{
+  ID: '72',
+  Name: 'Saw Shark',
+  Location: 'Sea',
+  Size: 'Largest (Fin)',
+  Value: '12000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '73',
+  Name: 'Hammerhead Shark',
+  Location: 'Sea',
+  Size: 'Largest (Fin)',
+  Value: '8000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '74',
+  Name: 'Great White Shark',
+  Location: 'Sea',
+  Size: 'Largest (Fin)',
+  Value: '15000',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '75',
+  Name: 'Whale Shark',
+  Location: 'Sea',
+  Size: 'Largest (Fin)',
+  Value: '13000',
+  Time: 'All day',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '76',
+  Name: 'Suckerfish',
+  Location: 'Sea',
+  Size: 'Large (Fin)',
+  Value: '1500',
+  Time: 'All day',
+  Seasonality: 'June-September (Northern) / December-March (Southern)'
+}
+{
+  ID: '77',
+  Name: 'Football Fish',
+  Location: 'Sea',
+  Size: 'Large',
+  Value: '2500',
+  Time: '4 p.m. - 9 a.m.',
+  Seasonality: 'November-March (Northern) / May-September (Southern)'
+}
+{
+  ID: '78',
+  Name: 'Oarfish',
+  Location: 'Sea',
+  Size: 'Largest',
+  Value: '9000',
+  Time: 'All day',
+  Seasonality: 'December-May (Northern) / June-November (Southern)'
+}
+{
+  ID: '79',
+  Name: 'Barreleye',
+  Location: 'Sea',
+  Size: 'Small',
+  Value: '15000',
+  Time: '9 p.m. - 4 a.m.',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
+{
+  ID: '80',
+  Name: 'Coelacanth',
+  Location: 'Sea',
+  Size: 'Largest',
+  Value: '15000',
+  Time: 'All day (only while raining)',
+  Seasonality: 'Year-round (Northern and Southern)'
+}
