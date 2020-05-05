@@ -3,7 +3,7 @@ const fs = require('fs');
 // require the discord.js module
 const Discord = require('discord.js');
 //load in the token from config.json
-const { prefix, token } = require('./config.json'); //this file has been removed from the GitHub upload for security purposes.
+const { prefix, token } = require('./config.json'); //this file has been altered for the GitHub upload for security purposes.
 
 // create a new Discord client
 const client = new Discord.Client();
