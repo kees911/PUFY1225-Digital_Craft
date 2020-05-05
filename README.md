@@ -32,3 +32,8 @@
 
 ## week 8
 * [microcontroller experiment (repository link)](https://github.com/kees911/PUFY1225-Digital_Craft/tree/master/dc-week-8/week-8-hw)
+
+## week 9
+
+## final
+* Learning portfolio post: Blathers
