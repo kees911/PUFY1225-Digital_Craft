@@ -73,11 +73,11 @@ module.exports = {
 		} else { //code that is used to generate information about the bugs otherwise
                 for (var i = 0; i < bugOutput.length; i++){
                     if (message.content.toLowerCase().includes(bugOutput[i].Name)){
-                //if the content of the message, once converted completely to lowercase, matches the name of a fish on the list
+                //if the content of the message, once converted completely to lowercase, matches the name of a bug on the list
                 return message.channel.send(bugOutput[i].Name + ' (' + bugOutput[i].ID + ')' + '\r\nSelling Price: ' + bugOutput[i].Value + ' Bells\r\nFound ' + bugOutput[i].Location + ', ' + bugOutput[i].Time + ', ' + bugOutput[i].Seasonality);
                     }
                 }
-            //if the fish name entered is invalid, sends this. Also prints an error to the console.
+            //if the bug name entered is invalid, sends this. Also prints an error to the console.
                 message.channel.send(`You entered: ${args}, which is not a valid bug name. Remember to include proper spacing and punctuation!`) /*Arguments length: ${args.length}*/
                 return console.log('error encountered');
                 }
